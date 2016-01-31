@@ -40,7 +40,7 @@ local spell_start_timer = 0;
 Frame:SetScript("OnEvent", function()
 	--_print(event);
 	if event == "PLAYER_LEAVE_COMBAT" then
-		NFX_DefaultVars();
+		ResetVariables();
 		_print("left combat. Reset variables");
 	end
 	
@@ -85,7 +85,7 @@ Frame:SetScript("OnUpdate", function()
 	]]--
 end)
 
-function NFX_DefaultVars()
+function ResetVariables()
 	cp 		= NumCP();
 	sndDur 	= BuffDur("Slice and Dice");
 	gcd 		= SpellCD("Sinister Strike");

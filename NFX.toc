@@ -1,10 +1,10 @@
 ## Interface: 11200
-## Title: NFX
-## Version: 0.1
-## Notes: For easy Tanking and DPS
-## Author: Hackzorbeil aka Hackebeil
+## Title: GemtRotations
+## Version: 1.0
+## Notes: because it was about time to learn wow api and lua after 10 years.
+## Author: Gemt
 
-## SavedVariablesPerCharacter: NFX_VARS
+## SavedVariablesPerCharacter: GemtRotations_Vars
 
 core.lua
 
