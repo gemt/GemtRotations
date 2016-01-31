@@ -20,7 +20,7 @@
 
 local cp 		= 0;
 local sndDur 	= 0;
-local gcd 		= 0;
+local gcd 	= 0;
 local energy 	= 0;
 	
 local used_evis = false;
