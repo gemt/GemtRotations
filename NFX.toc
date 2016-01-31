@@ -1,0 +1,10 @@
+## Interface: 11200
+## Title: NFX
+## Version: 0.1
+## Notes: For easy Tanking and DPS
+## Author: Hackzorbeil aka Hackebeil
+
+## SavedVariablesPerCharacter: NFX_VARS
+
+core.lua
+
